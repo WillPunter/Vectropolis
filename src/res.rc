@@ -1,0 +1,28 @@
+//include resource header - for storing resource IDs
+#include "resource.h"
+
+//load icon
+IDI_MYICON ICON "./../build/gameIcon.ico"
+
+//raw data for bitmaps
+IDR_FONTDATA RCDATA "./../build/res/font.bmp"
+IDR_LIFEDATA RCDATA "./../build/res/life.bmp"
+IDR_CURSORDATA RCDATA "./../build/res/cursor.bmp"
+
+//raw data for meshes
+IDR_CUBEDATA RCDATA "./../build/res/cube.obj"
+IDR_SPACESHIPDATA RCDATA "./../build/res/spaceship.obj"
+IDR_ENEMYDATA RCDATA "./../build/res/enemy.obj"
+IDR_CHASERDATA RCDATA "./../build/res/chaser.obj"
+IDR_HEAVYBOMBERDATA RCDATA "./../build/res/heavyBomber.obj"
+IDR_DEBRISDATA RCDATA "./../build/res/debris1.obj"
+
+//raw data for sounds
+IDR_SHOOTDATA RCDATA "./../build/res/shoot.wav"
+IDR_EXPLOSIONDATA RCDATA "./../build/res/explosion.wav"
+IDR_MENUMUSICDATA RCDATA "./../build/res/Borealis.wav"
+IDR_GAMEMUSICDATA RCDATA "./../build/res/Duel.wav"
+IDR_BUILDINGDESTROYDATA RCDATA "./../build/res/buildingDestroy.wav"
+IDR_ENEMYSHOOTDATA RCDATA "./../build/res/enemyShoot.wav"
+IDR_BOSSEXPLOSIONDATA RCDATA "./../build/res/bossExplosion.wav"
+IDR_SELECTDATA RCDATA "./../build/res/select.wav"
